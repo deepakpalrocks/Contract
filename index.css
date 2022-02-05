@@ -46,6 +46,7 @@
     position: absolute;
     top: 88vh;
     left: 50vw;
+    transform: translateX(-50%);
     /* border: 2px solid white; */
     padding: 20px;
     
