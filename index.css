@@ -11,8 +11,11 @@
     background-image: linear-gradient(to right ,rgba(0, 0, 0, 0.233) ,rgba(0, 0, 0, 0.247)),url(src/images/scooter.png) ;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* background-position: center; */
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in-out;
+    /* background-blend-mode: lighten; */
+    /* backdrop-filter: blur(25px); */
 }
 .main-body{
     width: 100%;
@@ -41,7 +44,7 @@
 .arrows{
     animation: move-up-down 1.5s ease-out 0s infinite forwards;
     position: absolute;
-    top: 92vh;
+    top: 90vh;
     left: 50vw;
     
 }

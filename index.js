@@ -2,7 +2,7 @@
     window.onscroll=function (){
         let scroll = document.documentElement.scrollTop;
         let vw = window.innerWidth;
-        if ((scroll > 650&&vw>700)||vw<=700) {
+        if ((scroll > 550)) {
             document.getElementById("MyHeader").style.backgroundColor='black';
         }
         else if(scroll<=650)
