@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .top-body{
     height: 100vh;
@@ -16,6 +17,12 @@
     /* transition: all 0.5s ease-in-out; */
     /* background-blend-mode: lighten; */
     /* backdrop-filter: blur(25px); */
+    /* background: url(../img/hero.jpg) center no-repeat; */
+    /* height: 150%; */
+    width: 100%;
+    display: table;
+    position: relative;
+    background-size: cover;
 }
 .main-body{
     width: 100%;
@@ -44,7 +51,7 @@
 .arrows{
     animation: move-up-down 1.5s ease-out 0s infinite forwards;
     position: absolute;
-    top: 88vh;
+    top: 85vh;
     left: 50vw;
     transform: translateX(-50%);
     /* border: 2px solid white; */
@@ -67,6 +74,7 @@
     /* transition: 0.01s linear; */
     /* display: flex; */
     /* height: ; */
+    box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.151);
 }
 
 
@@ -156,7 +164,7 @@
         transition: 0.5s ease-in-out;
         background-color: rgba(0, 0, 0, 0.925);
         flex-direction: column;
-        width: 100vw;
+        width: 99vw;
     }
     .navbar{
         background-color: rgba(0, 0, 0, 0.884);
@@ -185,4 +193,140 @@
 
 }
 
-  
+/* ---------------CSS for main body------------------ */
+
+
+.empty{
+    height: 7.5em;
+}
+
+
+.heading{
+    font-size: 1em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.heading h3{
+    color: gray;
+}
+.heading span{
+    transform: translateY(-0.25em);
+    display: inline-block;
+    border: 1px solid gray;
+    height: 2px;
+    width: 20px;
+    align-self: center;
+}
+.card-rotated{
+    /* position: absolute; */
+    background-image: linear-gradient(135deg ,black ,rgb(138, 136, 136));
+    transform: rotate(45deg) ;
+
+    width: 175px;
+    height: 175px;
+    /* margin-left: 47.5vw; */
+    /* margin-top: ; */
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.233);
+}
+.card-rotated div{
+    transform: rotate(-45deg);
+    font-size: 1.5em;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-top: 10vh;
+    text-align: center;
+    font-weight: 700;
+    display: inline-block;
+    /* margin-left: 12.5px; */
+    width: 100%;
+    
+}
+.box-of-cards{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+}
+.cards{
+    /* border: 4px solid lime; */
+    margin: 2px;
+    width: 33%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.card{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 5px;
+    padding: 2.5em 2em 2.5em 1.5em;
+    font-weight: 700;
+    color: white;
+    font-size: 1.25em;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.144);
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+.quality{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.479)),url(./src/images/quality.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.price{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.479)),url(./src/images/prices.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.eco{
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.479)),url(./src/images/eco.png) ;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+}
+.customer{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.479)),url(./src/images/customer.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width:700px) {
+    .box-of-cards{
+        flex-direction: column;
+    }
+    .cards{
+        width: 97.5vw;
+        padding: 5px;
+    }
+    .box-of-cards{
+        margin-top: 5px;
+    }
+    .card{
+        height: 30vh;
+        width: 30vh;
+        margin-bottom: 15px;
+    }
+    
+}
+@media (max-width:450px){
+    .card{
+        height: 20vh;
+        width: 20vh;
+        font-size: 1.0em;
+    }
+}
+
