@@ -5,6 +5,9 @@
     scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+a{
+    text-decoration: none;
+}
 .top-body{
     height: 100vh;
     width: 100%;
@@ -354,7 +357,78 @@
 .aim-box1 , .aim-box2{
     padding: 10px;
     width: 125px;
+    height: 125px;
     text-align: center;
+    /* background-color: green; */
+    /* transform: rotate(45deg); */
+    border: 2px solid green , 3px sol white;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+.footer-title{
+    text-align: center;
+    padding: 50px 0px;
+}
+.footer-title h1{
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+.footer-lower{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.navigation>ul>a>li{
+    padding: 5px;
+    color: white;
+}
+.navigation>ul>a>li:hover{
+    color: thistle;
+}
+.address{
+    padding: 50px;
+    max-width: 350px;
+    letter-spacing: 2px;
+}
+.rotated-rect{
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    border: 2px solid rgba(255, 255, 255, 0.486);
+    margin: 10px;
+    box-shadow: 4px 4px 1px 3px rgba(255, 255, 255, 0.164);
+    /* overflow: hidden; */
+    display: inline-block;
+    text-align: center;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon{
+    transform: rotate(-22.5deg) scale(1.4) translate(-2.5px ,2.5px);
+    color: white;
+}
+.instagram{
+    transform: rotate(-45deg) scale(2.1) translate(-4px,2.5px);
+    color: white;
+
 }
 
 
