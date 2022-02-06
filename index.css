@@ -329,4 +329,32 @@
         font-size: 1.0em;
     }
 }
+.aim{
+    padding: 20px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    justify-content: space-evenly;
+}
+.aim-box{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    color: green;
+}
+.aim-box img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    display: block;
+}
+.aim-box1 , .aim-box2{
+    padding: 10px;
+    width: 125px;
+    text-align: center;
+}
+
 
