@@ -132,6 +132,7 @@ a{
       position: absolute;
       right: 1vw;
       transition: transform 0.6s;
+      /* border: 2px solid red; */
       
   }
   .lines{
@@ -437,7 +438,7 @@ footer{
 .rotated-rect:hover {
     background-color: white;
     color: black;
-    transition: all 0.5s linear;
+    transition: all 0.25s linear;
 }
 .rotated-rect:hover .icon{
     color: black;
