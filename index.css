@@ -52,7 +52,7 @@
     animation: move-up-down 1.5s ease-out 0s infinite forwards;
     position: absolute;
     top: 85vh;
-    left: 50vw;
+    left: 45vw;
     transform: translateX(-50%);
     /* border: 2px solid white; */
     padding: 20px;
