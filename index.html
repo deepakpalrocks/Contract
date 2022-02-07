@@ -10,8 +10,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <script src="./index.js"></script>
 <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+
 </head>
 <body>
 
@@ -43,7 +45,7 @@
             <h1>URBANDRIVE</h1>
             <h4>WAY TO GREEN . . .</h4>
         </div>
-        <a href="#main-body">
+        <a href="#main-body" class="top-text__arrow">
             <div class="arrows">
                 <div class="arrow1 arrow"></div>
                 <div class="arrow2 arrow"></div>
@@ -76,8 +78,27 @@
             </div>
         </div>
 
-        <div class="counters">
-
+        <div class="counters" >
+            <div class="counter" >
+                <i class="material-icons md-36">done_all</i>
+                <div class="counter__value" data-="347"></div>
+                <p>Scooters Delivered</p>
+            </div>
+            <div class="counter" >
+                <i class="material-icons md-36">edit_road</i>
+                <div class="counter__value" data-="8896"></div>
+                <p>KM distance covered</p>
+            </div>
+            <div class="counter">
+                <i class="material-icons md-36">directions_bike</i>
+                <div class="counter__value" data-="368"></div>
+                <p>Test Rides</p>
+            </div>
+            <div class="counter" >
+                <i class="material-icons md-36">mood</i>
+                <div class="counter__value" data-="233"></div>
+                <p >Happy Clients</p>
+            </div>
         </div>
 
 
@@ -103,6 +124,8 @@
                 </div>
             </div>
         </div>
+        <div class="empty"></div>
+        <div class="empty"></div>
 
         <footer>
             <div class="footer-title">
@@ -147,12 +170,6 @@
             </div>            
 
         </footer>
-        
-        
-    </div>
-
-
-
-    </div>
+        <script src="./counter.js"></script>
 </body>
 </html>
