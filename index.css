@@ -376,7 +376,58 @@ a{
     width: 125px;
     height: 125px;
     text-align: center;
-    /* border: 2px solid green , 3px sol white; */
+}
+/*----------------------- CARDS CSS------------------- */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.cards2{
+  font-size: 1rem;
+  border: 1px rgb(157, 253, 173) solid;
+  box-shadow: 7px 7px 6px 1px rgba(0, 0, 0, 0.034);
+  flex-basis: 40%;
+  font-family: 'Ubuntu', sans-serif;
+  margin:10px;
+  color: rgb(58, 58, 58);
+  margin-bottom: 50px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  max-width: 500px;
+  background-image: linear-gradient(-45deg,rgba(255, 255, 255, 0.082) 50%,#1abc9c0a 50%);
+}
+.cards2:hover{
+  transform: scale(1.015);
+  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.082);;
+}
+.card-title{
+font-size: 1.5rem;
+padding: 5px 15px;
+border-bottom: 5px #1ABC9C solid;
+color: green;
+display: inline-block;
+margin-left: 50%;
+transform: translateX(-50%);
+
+}
+.card-text{
+  padding: 10px 25px;
+}
+
+#card-section{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.cards2{
+  flex-basis: 80%;
+}
 }
 
 /*----- footer css-------- */
@@ -411,8 +462,6 @@ footer{
 .navigation>ul>a>li{
     padding: 5px;
     color: white;
-    /* text-decoration: underline; */
-    /* border-bottom: 1px solid white; */
 }
 .navigation>ul>a>li:hover{
     color: rgb(88, 255, 199);
@@ -461,62 +510,4 @@ footer{
 
 
 
-  /*----------------------- CARDS CSS------------------- */
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-.cards2{
-    /* display:flex; */
-    /* flex-direction: column; */
-    font-size: 1rem;
-    border: 1px rgb(157, 253, 173) solid;
-    box-shadow: 7px 7px 6px 1px rgba(0, 0, 0, 0.034);
-    flex-basis: 40%;
-    font-family: 'Ubuntu', sans-serif;
-    margin:10px;
-    color: rgb(58, 58, 58);
-    margin-bottom: 50px;
-    /* padding-top: 25px; */
-    padding: 20px;
-    cursor: pointer;
-    transition: all 0.25s ease-in-out;
-    max-width: 500px;
-}
-.cards2:hover{
-    transform: scale(1.005);
-    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.082);;
-}
-.card-title{
-font-size: 1.5rem;
-padding: 5px 15px;
-border-bottom: 5px greenyellow solid;
-color: green;
-/* text-align: center; */
-/* border: 2px solid red; */
-display: inline-block;
-margin-left: 50%;
-/* width: 200px; */
-transform: translateX(-50%);
-
-}
-.card-text{
-    /* text-align: center; */
-    padding: 10px 25px;
-}
-
-#card-section{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-top: 100px;
-}
-
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-  .cards2{
-    flex-basis: 80%;
-  }
-  }
 
