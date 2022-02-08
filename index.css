@@ -45,7 +45,7 @@ a{
 .arrows{
     animation: move-up-down 1.5s ease-out 0s infinite forwards;
     position: absolute;
-    top: 85vh;
+    top: 80vh;
     left: 45vw;
     transform: translateX(-50%);
     padding: 20px;
@@ -153,7 +153,6 @@ a{
         width: 100%;
     }
     .navbar{
-        background-color: #1ABC9C;
         height: 70px;
     }
     .navbtn:checked ~ .nav-items{
@@ -347,6 +346,65 @@ a{
     }
 }
 
+/*----------------------- CARDS CSS------------------- */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.cards2{
+    font-size: 1rem;
+    border: 1px rgb(157, 253, 173) solid;
+    box-shadow: 7px 7px 6px 1px rgba(0, 0, 0, 0.034);
+    flex-basis: 40%;
+    font-family: 'Ubuntu', sans-serif;
+    margin:10px;
+    color: rgb(58, 58, 58);
+    margin-bottom: 50px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    max-width: 500px;
+    background-image: linear-gradient(-45deg,rgba(255, 255, 255, 0.082) 50%,#1abc9c09 50%);
+}
+.cards2:hover{
+    transform: scale(1.015);
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.082);;
+}
+.card-title{
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    border-bottom: 5px #1ABC9C solid;
+    color: green;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+}
+.card-text{
+    padding: 10px 25px;
+}
+
+#card-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .cards2{
+        flex-basis: 80%;
+        padding: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .card-text{
+        padding: 10px 0px;
+    }
+}
+
 
 /* -----Aim css------ */
 .aim{
@@ -377,59 +435,6 @@ a{
     height: 125px;
     text-align: center;
 }
-/*----------------------- CARDS CSS------------------- */
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-.cards2{
-  font-size: 1rem;
-  border: 1px rgb(157, 253, 173) solid;
-  box-shadow: 7px 7px 6px 1px rgba(0, 0, 0, 0.034);
-  flex-basis: 40%;
-  font-family: 'Ubuntu', sans-serif;
-  margin:10px;
-  color: rgb(58, 58, 58);
-  margin-bottom: 50px;
-  padding: 20px;
-  cursor: pointer;
-  transition: all 0.25s ease-in-out;
-  max-width: 500px;
-  background-image: linear-gradient(-45deg,rgba(255, 255, 255, 0.082) 50%,#1abc9c0a 50%);
-}
-.cards2:hover{
-  transform: scale(1.015);
-  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.082);;
-}
-.card-title{
-font-size: 1.5rem;
-padding: 5px 15px;
-border-bottom: 5px #1ABC9C solid;
-color: green;
-display: inline-block;
-margin-left: 50%;
-transform: translateX(-50%);
-
-}
-.card-text{
-  padding: 10px 25px;
-}
-
-#card-section{
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding-top: 100px;
-}
-
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-.cards2{
-  flex-basis: 80%;
-}
-}
-
 /*----- footer css-------- */
 footer{
     background-color: #1ABC9C;
