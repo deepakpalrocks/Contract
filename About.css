@@ -286,8 +286,9 @@ a{
   }
   
   .flip-card-front {
-    background-color: #bbb;
+    /* background-color: #bbb; */
     color: black;
+    background-image: url(./src/images/img_avatar.png);
   }
   
   .flip-card-back {
