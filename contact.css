@@ -154,7 +154,7 @@ a{
     background-position:top;
     background-repeat: no-repeat;
     height: 60vh;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-color: rgb(247, 247, 247);
     /* transform: translateY(5vh); */
     margin-top: 5vh;
