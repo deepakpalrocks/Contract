@@ -24,7 +24,7 @@ a{
     z-index: 2;
     font: bold 14px/1.4 'Open Sans', arial, sans-serif;
     /* background-color: transparent; */
-    background-image:  linear-gradient(to right,rgb(27, 255, 160) 10%,#1ABC9C);
+    background-image:  linear-gradient(to right,rgb(0, 255, 200) ,#018b80);
     box-shadow: 0px 5px 7px 5px rgba(0, 0, 0, 0);
     backdrop-filter: blur(5px);
 }
@@ -147,7 +147,7 @@ a{
 .head{
     text-align: center;
     /* height: 80vh; */
-    background-image:  linear-gradient(to right,rgb(0, 255, 149) ,#00a396);
+    background-image:  linear-gradient(to right,rgb(0, 255, 200) ,#018b80);
     background-size: cover;
     background-position: center;
     color: white;
@@ -248,8 +248,8 @@ a{
 
 .flip-card {
     background-color: transparent;
-    width: 250px;
-    height: 300px;
+    width: 256px;
+    height: 360px;
     perspective: 1000px;
   }
   
@@ -288,7 +288,18 @@ a{
   .flip-card-front {
     /* background-color: #bbb; */
     color: black;
-    background-image: url(./src/images/img_avatar.png);
+    /* background-image: url(./src/images/img_avatar.png); */
+    border: 1px solid #1ABC9C;
+    padding: 2px;
+    color: #1ABC9C;
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+  .flip-card-front img{
+      border: 1px solid gray;
+  }
+  .card-name{
+      padding: 10px 2px;
   }
   
   .flip-card-back {
@@ -296,6 +307,7 @@ a{
     background-image: linear-gradient(to right,#1ABC9C ,#1ABC9C);
     color: white;
     transform: rotateY(180deg);
+    border: 1px solid rgb(204, 204, 204);
   }
   .flip-card-back h1{
       font-size: 1.75em;

@@ -13,7 +13,7 @@
         else 
         {
             document.getElementById("MyHeader").style.backgroundColor='transparent';
-            document.getElementById("MyHeader").style.backgroundImage='linear-gradient(to right,rgb(27, 255, 160) 10%,#1ABC9C)';
+            document.getElementById("MyHeader").style.backgroundImage='linear-gradient(to right,rgb(0, 255, 200) ,#018b80)';
             document.getElementById("MyHeader").style.boxShadow='0px 5px 7px 5px rgba(0, 0, 0, 0)';
         }
         
