@@ -373,12 +373,12 @@ a{
     margin-bottom: 50px;
     padding: 20px;
     cursor: pointer;
-    transition: box-shadow 0.25s ease-in-out !important;
+    transition: box-shadow 0.25s ease-in-out ;
     max-width: 500px;
     background-image: linear-gradient(-45deg,rgba(255, 255, 255, 0.082) 50%,#1abc9c09 50%);
 }
 .cards2:hover{
-    /* transform: scale(1.05); */
+    transform: scale(1.05);
     box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.082);;
 }
 .card-title{
@@ -400,6 +400,7 @@ a{
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 100px;
+    transition: box-shadow 0.25s ease-in-out ;
     
 }
 
