@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./contact.css">
   <!-- <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
 
   <script src="./contact.js"></script>
@@ -36,12 +37,12 @@
   </div>
 
   <div class="main">
-      <div class="upper-image">
-        <h1>Get in touch</h1>
-        <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
+      <div class="upper-image" >
+        <h1 data-aos="fade-down">Get in touch</h1>
+        <p data-aos="fade-down">Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
       </div>
       <div class="cards">
-          <div class="card">
+          <div class="card" data-aos="flip-right">
               <i class="fa fa-phone faa"></i>
               <h3>Talk to Us</h3>
               <p class='card-text'>Have any queries? Just pick up the phone and let us know. 
@@ -56,7 +57,7 @@
                   
               </p>
             </div>
-          <div class="card">
+          <div class="card" data-aos="flip-up">
             <i class="fa fa-envelope faa"></i>
             <h3>Mail Us</h3>
             <p class='card-text'>You can also mail us your queries if you perfer to. 
@@ -72,7 +73,7 @@
                 
             </p>
           </div>
-          <div class="card">
+          <div class="card" data-aos="flip-left">
             <i class="fa fa-building faa"></i>
             <h3>Our Office</h3>
             <p class='card-text'>Urbandrive office Address -  
@@ -149,7 +150,10 @@
     </div>
 
   </footer>
-  <script src="./counter.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
