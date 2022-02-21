@@ -14,6 +14,7 @@
   <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'> -->
   <!-- <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <script src="./About.js"></script>
   <!-- <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script> -->
@@ -42,15 +43,15 @@
 
   <div class="main">
     <div class="head">
-      <h1>
+      <h1 data-aos="zoom-out-down">
         Hello, We are URBANDRIVE
-      </h1>
-      <p>We aim to make our Environment Cleaner and Greener, join us in our Goal!</p>
+      </h1 >
+      <p data-aos="zoom-out-down">We aim to make our Environment Cleaner and Greener, join us in our Goal!</p>
       <div class="headflex">
-        <div class="head-image">
-          <img src="./transparent_logo.png" alt="">
+        <div class="head-image" data-aos="zoom-in-right">
+          <img src="./transparent_logo.png" alt="" >
         </div>
-        <div class="head-text">
+        <div class="head-text" data-aos="zoom-in-left">
           <p class="head-para">
             Sustainable development is a key factor to our innovation, and therefore everything from our products to our
             manufacturing centres are completely green and ensures no impact is made on mother nature. This belief of
@@ -81,7 +82,7 @@
       <div class="team-cards">
 
         
-        <div class="flip-card">
+        <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="./src/images/team/dhruv.jpeg" alt="Avatar" style="width:250px;height:300px;">
@@ -99,7 +100,7 @@
             </div>
           </div>
         </div>
-        <div class="flip-card">
+        <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="./src/images/team/gunjan.jpeg" alt="Avatar" style="width:250px;height:300px;">
@@ -117,7 +118,7 @@
             </div>
           </div>
         </div>
-        <div class="flip-card">
+        <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="./src/images/team/manish.jpeg" alt="Avatar" style="width:250px;height:300px;">
@@ -135,7 +136,7 @@
             </div>
           </div>
         </div>
-        <div class="flip-card">
+        <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="./src/images/team/mili.jpeg" alt="Avatar" style="width:250px;height:300px;">
@@ -153,7 +154,7 @@
             </div>
           </div>
         </div>
-        <div class="flip-card">
+        <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="./src/images/team/prasuk.jpeg" alt="Avatar" style="width:250px;height:300px;">
@@ -171,7 +172,7 @@
             </div>
           </div>
         </div>
-        <div class="flip-card">
+        <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="./src/images/team/tanya.jpeg" alt="Avatar" style="width:250px;height:300px;">
@@ -189,7 +190,7 @@
             </div>
           </div>
         </div>
-        <div class="flip-card">
+        <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="./src/images/team/ashish.png" alt="Avatar" style="width:250px;height:300px;">
@@ -207,7 +208,7 @@
             </div>
           </div>
         </div>
-        <div class="flip-card">
+        <div class="flip-card" data-aos="fade-up">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="./src/images/team/deepak.png" alt="Avatar" style="width:250px;height:300px;">
@@ -292,7 +293,10 @@
     </div>
 
   </footer>
-  <script src="./counter.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

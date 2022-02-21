@@ -144,6 +144,9 @@ a{
 
 /* ----------------main-body---------- */
 
+.main{
+    overflow: hidden;
+}
 .head{
     text-align: center;
     /* height: 80vh; */

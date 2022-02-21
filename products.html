@@ -10,6 +10,7 @@
 <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
 
 <script src="./products.js"></script>
@@ -39,30 +40,30 @@
     <div class="main">
         <div class="products">
             <div class="cards-box">
-                <div class="card-head" id="flying" style="background-color:rgb(175, 51, 62)"><img src="./src/images/specs/flying.png" alt=""></div>
+                <div class="card-head" id="flying" style="background-color:rgb(175, 51, 62)" ><img src="./src/images/specs/flying.png" alt=""></div>
                 <div class="cards">
-                    <div class="card card1 "><img src="./src/images/products/flying.png" alt=""></div>
-                    <div class="card card2 "><img src="./src/images/specs/flying_specs.png" alt=""></div>
+                    <div class="card card1 " data-aos="fade-right"><img src="./src/images/products/flying.png" alt=""></div>
+                    <div class="card card2 " data-aos="fade-left"><img src="./src/images/specs/flying_specs.png" alt=""></div>
                 </div>
-                <div class="card-head" id="one" style="background-color:rgb(140, 195, 234)"><img src="./src/images/specs/one.png" alt=""></div>
+                <div class="card-head" id="one" style="background-color:rgb(140, 195, 234)" ><img src="./src/images/specs/one.png" alt=""></div>
                 <div class="cards">
-                    <div class="card card1"><img src="./src/images/products/one.png" alt=""></div>
-                    <div class="card card2"><img src="./src/images/specs/one_specs.png" alt=""></div>
+                    <div class="card card1" data-aos="fade-right"><img src="./src/images/products/one.png" alt=""></div>
+                    <div class="card card2" data-aos="fade-left"><img src="./src/images/specs/one_specs.png" alt=""></div>
                 </div>
-                <div class="card-head" id="one_plus" style="background-color:rgb(92, 165, 122)"><img src="./src/images/specs/one_plus.png" alt=""></div>
+                <div class="card-head" id="one_plus" style="background-color:rgb(92, 165, 122)" ><img src="./src/images/specs/one_plus.png" alt=""></div>
                 <div class="cards">
-                    <div class="card card1"><img src="./src/images/products/oneplus.png" alt=""></div>
-                    <div class="card card2"><img src="./src/images/specs/one_plus_specs.png" alt=""></div>
+                    <div class="card card1" data-aos="fade-right"><img src="./src/images/products/oneplus.png" alt=""></div>
+                    <div class="card card2" data-aos="fade-left"><img src="./src/images/specs/one_plus_specs.png" alt=""></div>
                 </div>
-                <div class="card-head" id="soul" style="background-color:rgb(133, 134, 136)"><img src="./src/images/specs/soul.png" alt=""></div>
+                <div class="card-head" id="soul" style="background-color:rgb(133, 134, 136)" ><img src="./src/images/specs/soul.png" alt=""></div>
                 <div class="cards">
-                    <div class="card card1"><img src="./src/images/products/soul.png" alt=""></div>
-                    <div class="card card2"><img src="./src/images/specs/soul_specs.png" alt=""></div>
+                    <div class="card card1" data-aos="fade-right"><img src="./src/images/products/soul.png" alt=""></div>
+                    <div class="card card2" data-aos="fade-left"><img src="./src/images/specs/soul_specs.png" alt=""></div>
                 </div>
-                <div class="card-head" id="prime_plus" style="background-image:linear-gradient(rgb(5,132,183),rgb(104,187,219))"><img src="./src/images/specs/prime_plus.png" alt=""></div>
+                <div class="card-head" id="prime_plus" style="background-image:linear-gradient(rgb(5,132,183),rgb(104,187,219))" ><img src="./src/images/specs/prime_plus.png" alt=""></div>
                 <div class="cards">
-                    <div class="card card1"><img src="./src/images/products/primeplus.png" alt=""></div>
-                    <div class="card card2"><img src="./src/images/specs/prime_plus_specs.png" alt=""></div>
+                    <div class="card card1" data-aos="fade-right"><img src="./src/images/products/primeplus.png" alt=""></div>
+                    <div class="card card2" data-aos="fade-left"><img src="./src/images/specs/prime_plus_specs.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -110,6 +111,9 @@
         </div>            
 
     </footer>
-        <script src="./counter.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 </body>
 </html>
