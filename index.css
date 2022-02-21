@@ -21,6 +21,7 @@ a{
 }
 .main-body{
     width: 100%;
+    overflow: hidden;
 }
 .arrow{
     width: 15px;
@@ -245,6 +246,9 @@ a{
     flex-wrap: wrap;
 
 }
+/* .provide{
+    overflow: hidden;
+} */
 .card{
     height: 25vh;
     width: 25vh;
