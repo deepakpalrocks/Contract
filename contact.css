@@ -199,6 +199,10 @@ a{
     color: rgb(0, 212, 195);
     cursor: pointer;
 }
+.copy a{
+    color: rgb(0, 212, 195);
+    cursor: pointer;
+}
 .faa{
     font-size: 3em !important;
     color: rgb(104, 104, 104);
@@ -224,7 +228,7 @@ a{
     position: relative;
     display: inline-block;
   }
-  
+
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 140px;
