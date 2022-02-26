@@ -1,5 +1,5 @@
 function copynumber(){
-    navigator.clipboard.writeText("+919557682562");
+    navigator.clipboard.writeText("+918130317418");
     document.getElementById('numbertooltip').innerHTML="Copied Successfully!";
 }
 function copynumber2(){
@@ -17,13 +17,13 @@ function copyaddress(){
 
 
 function numberover2(){
-    document.getElementById('numbertooltip2').innerHTML="Click to make a call";
+    document.getElementById('numbertooltip2').innerHTML="Click to Copy Number/ Make a Call";
 }
 function numberover(){
-    document.getElementById('numbertooltip').innerHTML="Click to make a call";
+    document.getElementById('numbertooltip').innerHTML="Click to Copy Number/ Make a Call";
 }
 function mailover(){
-    document.getElementById('mailtooltip').innerHTML="Click to open Mail app";
+    document.getElementById('mailtooltip').innerHTML="Click to Copy Email/open Mail app";
 }
 function addressover(){
     document.getElementById('addresstooltip').innerHTML="Click to copy";
