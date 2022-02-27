@@ -26,5 +26,5 @@ function mailover(){
     document.getElementById('mailtooltip').innerHTML="Click to Copy Email/open Mail app";
 }
 function addressover(){
-    document.getElementById('addresstooltip').innerHTML="Click to copy";
+    document.getElementById('addresstooltip').innerHTML="Click to Copy/Open in Google Maps";
 }

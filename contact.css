@@ -184,7 +184,7 @@ a{
     /* width: 450px; */
     max-width: 30%;
     min-width: 325px;
-    height: 425px;
+    height: 450px;
     border: 1px solid rgb(224, 224, 224);
     display: flex;
     flex-direction: column;
@@ -201,6 +201,9 @@ a{
 .copy{
     color: rgb(0, 212, 195);
     cursor: pointer;
+}
+.addresscopy{
+    font-size: 0.95em;
 }
 .copy a{
     color: rgb(0, 212, 195);
@@ -220,7 +223,7 @@ a{
         padding: 10px;
     }
     .card{
-        height: 400px;
+        /* min-height: 400px; */
         max-width: 75%;
     }
     
