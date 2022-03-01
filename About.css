@@ -184,6 +184,7 @@ a{
 }
 .headflex img{
     transform: translateY(-50px);
+    width: 350px;
 }
 .navbar a:active{
     color: lime;
