@@ -14,6 +14,32 @@ a{
     height: 7.5em;
 }
 /* ----------------------navbar CSS----------------- */
+
+
+
+.navicon{
+    position: fixed;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    z-index: 10;
+    /* transition: all 0.25s linear; */
+    transform: translateY(-50%);
+    /* background-image: linear-gradient(to right,rgba(0, 0, 0, 0.493),rgba(51, 51, 51, 0.479)); */
+    transition: all 0.25s linear;
+}
+.navicon img{
+    width: 30px;
+}
+.navicon a{
+    color: white;
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
 .navbar{
     position: fixed;
     top: 0px;
@@ -97,8 +123,11 @@ a{
       font-size: 1.7em;
       transition: 0.5 ease-in-out;
   }
-@media (max-width:700px)
+@media (max-width:1100px)
 {   
+    #navicon-text{
+        display: none;
+    }
     .nav-title{
         display: block;
     }
@@ -111,7 +140,7 @@ a{
     .navbar ul{
         transform: translateX(-100vw);
         transition: 0.5s ease-in-out;
-        background-color: #1ABC9C;
+        background-color: #00d8b4;
         flex-direction: column;
         width: 100%;
     }
@@ -183,8 +212,8 @@ a{
 .card{
     /* width: 450px; */
     max-width: 30%;
-    min-width: 325px;
-    height: 450px;
+    min-width: 300px;
+    height: 460px;
     border: 1px solid rgb(224, 224, 224);
     display: flex;
     flex-direction: column;
